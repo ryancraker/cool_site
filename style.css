@@ -7,6 +7,7 @@
 
 body {
   margin: 0;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
@@ -27,8 +28,10 @@ header {
 
 main {
   display: flex;
-  flex-direction: column;
-  padding: 20px 20px;
+  flex-direction: row;
+  padding: 20px 50px;
+  max-width: 100%;
+  align-items: flex-start;
 }
 
 h1 {
@@ -47,6 +50,7 @@ div button {
 
 nav {
   justify-content: space-around;
+  text-decoration: underline;
   color: var(--cool-blue);
   background-color: white;
   padding: 1rem
