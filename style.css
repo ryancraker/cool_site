@@ -1,0 +1,76 @@
+:root {
+  --cool-dark: #061130;
+  --cool-blue: #1C4BC4;
+  --cool-light: #F4F6F8;
+  --cool-yellow: #FAFD61;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: var(--cool-dark);
+}
+
+header,
+main {
+  background-color: var(--cool-dark);
+  color: var(--cool-light)
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 16px 13px
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+main article {
+  color: var(--cool-yellow);
+}
+
+div button {
+  justify-content: right;
+  font-weight: bold;
+  margin: 15px;
+}
+
+nav {
+  justify-content: space-around;
+  color: var(--cool-blue);
+  background-color: white;
+  padding: 1rem
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4F6F8;
+}
+
+button {
+  all: unset;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.display-flex {
+  display: flex;
+}
