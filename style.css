@@ -43,7 +43,7 @@ h1 {
   font-weight: bold;
 }
 
-article div {
+article h2 {
   color: var(--cool-yellow);
 }
 
