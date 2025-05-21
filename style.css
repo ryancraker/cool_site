@@ -87,6 +87,6 @@ button:hover {
 
 .blue-button {
   background-color: var(--cool-blue);
-  padding: 20px;
+  padding: 13px 15px;
   border-radius: 15px;
 }
