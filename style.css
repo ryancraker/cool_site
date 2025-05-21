@@ -36,6 +36,7 @@ main {
 
 h1 {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 main article {
@@ -44,7 +45,7 @@ main article {
 
 div button {
   justify-content: right;
-  font-weight: bold;
+  font-weight: 1.5rem;
   margin: 15px;
 }
 
@@ -77,4 +78,10 @@ button:hover {
 
 .display-flex {
   display: flex;
+}
+
+.blue-button {
+  background-color: var(--cool-blue);
+  padding: 20px;
+  border-radius: 15px;
 }
